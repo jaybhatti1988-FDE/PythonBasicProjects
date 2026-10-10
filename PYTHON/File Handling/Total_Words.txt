@@ -1,0 +1,3 @@
+
+ working in W+ operation in python file handling
+ It's means Reading and Writing file in python file handling
