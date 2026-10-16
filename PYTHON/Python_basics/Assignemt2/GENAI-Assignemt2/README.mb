@@ -1,0 +1,59 @@
+Order Discount and Tax Calculator
+Assignment 2 Overview
+This Python assignment demonstrates the use of conditional statements, loops, arithmetic operations, and input validation. It includes three tasks for calculating discounts, processing multiple orders, and managing orders through a menu-driven program.
+
+Task 1: Discount and Tax Calculator
+Task 1 accepts an order amount from the user and applies a discount according to the following rules:
+
+Order amount >= 2000 → 15% discount
+Order amount >= 1500 → 10% discount
+Order amount >= 1000 → 7% discount
+Order amount below 1000 → No discount
+After applying the discount, the program calculates a 5% tax on the subtotal.
+
+Order Summary
+Order Amount
+Discount Price
+Subtotal
+Tax (5%)
+Final Amount
+The program also handles negative values and non-numeric input using validation and try/except.
+
+Task 2: Process Multiple Orders
+Task 2 processes multiple order amounts:
+
+orders = [1200, 2500, 800, 1750, 3000]
+
+A for loop processes each order and applies the discount rules from Task 1.
+
+The program displays:
+
+Order Amount
+Discount Percentage
+Final Amount
+Total Revenue After Discounts
+Number of Orders Receiving a Discount
+Task 3: Menu-Driven Order Management
+
+Task 3 implements a simple menu-driven order management program using a while loop.
+
+Menu Options
+1 - Add an order amount to the running list
+2 - Display all orders, discounts, final amounts, and total revenue
+q - Quit the application
+
+The program uses continue to return to the menu after invalid input and break to exit when the user enters q.
+
+Requirements
+Python 3
+No external packages required
+Uses lists, loops, conditional statements, and basic arithmetic
+No custom functions required
+
+Daily Sales Loop Control Task 4
+Overview
+This Python program demonstrates the use of for loops, break, and continue statements for processing daily sales data.
+
+The program uses a list containing daily sales values. Each value is checked during the loop. When the sales value is 0, it represents a day with no sales, so the continue statement skips that value. When the value is -1, it represents corrupted data, so the break statement immediately stops further processing.
+
+All valid positive sales values are added to total_sales. The program displays the running total and finally prints the total valid sales amount.
