@@ -1,0 +1,3 @@
+Laptop| 55000.00
+Mobile| 18900.00
+Television| 45000.00
